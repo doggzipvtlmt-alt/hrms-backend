@@ -18,3 +18,16 @@ View your app in AI Studio: https://ai.studio/apps/drive/1LnvpQhRauz6CHcFFI7IFWP
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## HRMS Backend (FastAPI)
+
+**Prerequisites:** Python 3.11+
+
+1. Create a virtual environment and install dependencies:
+   `python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt`
+2. Apply migrations:
+   `alembic upgrade head`
+3. Run the API:
+   `uvicorn app.main:app --reload`
+
+Swagger docs are available at `http://localhost:8000/docs`.
