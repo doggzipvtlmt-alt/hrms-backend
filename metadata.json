@@ -1,0 +1,7 @@
+{
+  "name": "Sahayak - HRMS for Bharat",
+  "description": "A lightweight, WhatsApp-integrated recruitment and interview management system designed for the informally educated workforce, focusing on simplicity and mobile-first experience.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
